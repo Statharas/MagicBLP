@@ -85,6 +85,7 @@ public class BlpConverterCli
     {
         Console.WriteLine("Usage:");
         Console.WriteLine("  dotnet run -- -f <input_file> -o <output_file> [conversion_flag]");
+        Console.WriteLine("  MagicBLP_CLI.exe -f <input_file> -o <output_file> [conversion_flag]");
         Console.WriteLine("Flags:");
         Console.WriteLine("  -f, --file       Input file path");
         Console.WriteLine("  -o, --output     Output file path");
